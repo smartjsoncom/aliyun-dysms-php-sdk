@@ -1,0 +1,27 @@
+{
+    "name": "smartjson/alidysms",
+    "description": "aliyun dysms php sdk",
+    "keywords": ["aliyun", "sms", "sdk", "aliyun sms"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/smartjsoncom/aliyun-dysms-php-sdk.git",
+    "authors": [
+        {
+            "name": "Jason Sun",
+            "email": "chensongah@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload":{
+        "psr-4": {
+            "Aliyun\\": "lib/",
+            "Aliyun\\Test\\": "tests/"
+        }
+    }
+}
