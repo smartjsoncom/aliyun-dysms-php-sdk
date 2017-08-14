@@ -3,7 +3,7 @@
     "description": "aliyun dysms php sdk",
     "keywords": ["aliyun", "sms", "sdk", "aliyun sms"],
     "type": "library",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "homepage": "https://github.com/smartjsoncom/aliyun-dysms-php-sdk.git",
     "authors": [
         {
